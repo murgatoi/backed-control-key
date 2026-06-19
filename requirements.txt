@@ -1,0 +1,29 @@
+# Framework para criação da API
+fastapi==0.111.0
+
+# Servidor ASGI para rodar a aplicação
+uvicorn==0.30.1
+
+# ORM para mapeamento e manipulação do banco de dados
+SQLAlchemy==2.0.30
+
+# Driver/Conector MySQL para o SQLAlchemy (usado na sua DATABASE_URL)
+pymysql==1.1.1
+
+# Driver assíncrono para MySQL (caso decida usar operações async)
+aiomysql==0.2.0
+
+# Utilitário para validação de dados e esquemas
+pydantic==2.7.4
+
+# Gerenciamento de variáveis de ambiente (.env)
+python-dotenv==1.0.1
+
+# Criptografia para senhas de usuários (segurança)
+passlib[bcrypt]==1.7.4
+
+# Geração e validação de Tokens JWT para autenticação/login
+pyjwt==2.8.0
+
+# Suporte a requisições de origens diferentes (CORS) e multipart (upload de arquivos se necessário)
+python-multipart==0.0.9

@@ -1,0 +1,29 @@
+# --- Ambiente Virtual e Dependências ---
+venv/
+.venv/
+env/
+env.bak/
+venv.bak/
+__pycache__/
+*.py[cod]
+
+# --- Configurações e Variáveis de Ambiente ---
+# NUNCA envie senhas ou chaves de API para o GitHub
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# --- Logs e Banco de Dados ---
+*.log
+*.sqlite3
+*.db
+
+# --- IDEs e Editores ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Docker ---
+# Caso você use algum cache de build específico do Docker
+.dockerignore 
